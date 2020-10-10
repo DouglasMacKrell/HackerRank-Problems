@@ -1,7 +1,7 @@
 // Time Conversion
 // https://www.hackerrank.com/challenges/time-conversion/problem
 
-// Given a time in -hour AM/PM format,
+// Given a time in 12-hour AM/PM format,
 // convert it to military (24-hour) time.
 
 // Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
@@ -44,6 +44,18 @@
 // Sample Output 0
 
 // 19:05:45
+
+
+
+
+
+
+
+
+
+
+
+
 
 function timeConversion(s) {
   let dayNight = s[s.length - 2] + s[s.length - 1];
