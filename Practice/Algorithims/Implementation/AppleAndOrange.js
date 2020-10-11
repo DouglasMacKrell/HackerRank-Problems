@@ -83,9 +83,7 @@
 
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
   appleCount = 0;
-  adjustedApples = [];
   orangeCount = 0;
-  adjustedOranges = [];
   for (let apple of apples) {
     if (a + apple >= s && a + apple <= t) {
       appleCount += 1;
