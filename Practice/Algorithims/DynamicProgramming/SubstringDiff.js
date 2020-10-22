@@ -56,7 +56,9 @@
 // 8
 // Explanation
 
-// First test case: If we take "briz" from the first string, and "orin" from the second string, then the number of mismatches between these two substrings is equal to 2 and their lengths are .
+// First test case: If we take "briz" from the first string, 
+// and "orin" from the second string, then the number of mismatches 
+// between these two substrings is equal to 2 and their lengths are .
 
 // Second test case: Since , we should find the longest common substring, standard definition, for the given input strings. We choose "aba" as the result.
 
